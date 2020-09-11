@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:10');
+body
+{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: 'Poppins', sans-serif;
+	background: url(background.jpg);
+	background-size: cover;
+}
+
+.mobile
+{
+	position: absolute;
+	width: 270px;
+	height: 480px;
+	justify-content: center;
+	align-items: center;
+	background-color: #010101;
+}
+
+.top
+{
+	position: absolute;
+	top: -50px;
+	width: 100%;
+	height: 50px;
+	background: #efefef;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+}
+
+.top:before
+{
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 35%;
+	transform: translateY(-50%);
+	width: 4px;
+	height: 4px;
+	background: #ccc;
+	border: 2px solid #aaa;
+	border-radius: 50%;
+	box-shadow: 0 0 0 1px #999;
+	
+}
+
+
+.bottom
+{
+	position: absolute;
+	bottom: -50px;
+	width: 100%;
+	height: 50px;
+	background: #efefef;
+	border-bottom-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+}
+
+.bottom:before
+{
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 15px;
+	height: 15px;
+	border: 2px solid #999;
+	border-radius: 6px;
+}
+
+.USSD
+{
+	position: relative;
+	width: 240px;
+	height: 340px;
+	background-color: #999;
+	justify-content: center;
+	align-items: center;
+	left: 20px;
+}
+
+h1
+{
+	position: relative;
+	color: #fff;
+	font-weight: 200;
+	font-size: 2.3em;
+	line-height: 0.8em;
+	text-shadow: 0 0.5px 2px rgba(0,0,0,.4);
+	margin-left: 60px;
+}
+
+
+h2
+{
+	position: relative;
+	color: ##010101;
+	font-weight: 200;
+	font-size: 1.3em;
+	transform: translateY(50px);
+	line-height: 1em;
+	text-align: center;
+}
+
+p
+{
+	position: relative;
+	line-height: 0.01em;
+	text-align: center;
+}
+
+#USSD
+{
+	height:300px;
+	overflow-y:auto;
+	align-items: center;
+	margin-top: 40px;
+}
+
+input
+{
+	position: relative;
+	align-items: center;
+	display: block;
+	margin-left: 50px;
+}
+
+#submit
+{
+	position: relative;
+	margin-top: -30px;
+	margin-left: 160px;
+}
